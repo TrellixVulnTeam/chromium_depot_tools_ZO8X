@@ -30,7 +30,7 @@ then
         ;;
     esac
   done
-  exec "python" "${NEWARGS[@]}"
+  exec "python2" "${NEWARGS[@]}"
 fi
 
 
